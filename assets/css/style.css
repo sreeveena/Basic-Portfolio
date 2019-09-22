@@ -1,0 +1,47 @@
+.page{
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+width: 960px;
+height:650px;
+padding-bottom: 30px;
+padding-top:10px;   
+}
+
+
+
+.heading{
+    background: turquoise;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 200px;
+
+}
+
+.about{
+    color: #777;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 600px;
+    background: #777;
+   
+}
+.portfolio{
+    color: #777;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 700px;
+    background: #777;
+    
+}
+.contact{
+    color: #777;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 800px;
+    background: #777;
+    
+}
