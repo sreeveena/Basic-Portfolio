@@ -6,31 +6,38 @@ body{
     background-image: url('file:///Users/sree/Documents/Assignments/Basic-Portfolio/triangle-mosaic.png');
    
 }
-.links{
-    margin-bottom: 15px;
+
+ /*.links{
+     
+     padding: 10px;
+    background: white;
+    height: 35px;
+    text-align: center;
     margin-left:50px;
     margin-right:65px;
-    background: #ffffff;
-    color: #777777;
-    height: 50px;
-    text-align: center;
-    border-color: #cccccc;
-    padding:40px 20px 20px 30px;
-}
-.heading{
+
+ }   */
+ nav{
+     width: 960px;
+ }
+.name{
     background: #4aaaa5;
     color: white;
     width: 100px;
-    height: 50px;
+    height: 30px;
     padding: 10px;
+    margin-top: 20px;
     
+
 }
+
 .content{
     margin-bottom: 15px;
-    margin-left:50px;
-    margin-right:50px;
-    padding:40px 20px 20px 30px;
+    margin-left:10%;
+    margin-right:10%;
+    padding:30px 20px 20px 30px;
     width: 960px;
+    height: 500px;
     color: #777777;
     background: #ffffff;  
     border-color: #dddddd;
@@ -48,10 +55,23 @@ img{
 
 nav{
     color: #777;
-    margin-left: 500px;
+    /*margin-left: 500px;*/
     display: block;
     padding: 20px;
+    width: 960px;
+    height: 50px;
     
+    
+}
+.header-links{
+        color: #777;
+        margin-top: 0px;
+        display: block;
+        padding: 20px;
+        float:right;
+}
+.about{
+float: right;
 }
 
 .footer{
@@ -92,3 +112,35 @@ input[type=submit] {
     border: none;
     cursor: pointer;
   }
+.image2{
+    position: relative;
+    height: 150px;
+    width: 250px;
+}
+.desc2{
+    position: absolute;
+    bottom:0px; 
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+.image3{
+    position: relative;
+    height: 150px;
+    width: 250px;
+}
+.desc3{
+    position: absolute;
+    bottom:0px; 
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
