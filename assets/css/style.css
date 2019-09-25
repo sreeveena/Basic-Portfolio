@@ -1,37 +1,52 @@
 body{
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    padding: 0;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+padding: 0;
   margin: 0;
   font-size: 18px; 
-    background-image: url('file:///Users/sree/Documents/Assignments/Basic-Portfolio/triangle-mosaic.png');
+ background-image: url('file:///Users/sree/Documents/Assignments/Basic-Portfolio/triangle-mosaic.png');
    
 }
-
- /*.links{
-     
-     padding: 10px;
-    background: white;
-    height: 35px;
-    text-align: center;
-    margin-left:50px;
-    margin-right:65px;
-
- }   */
- nav{
-     width: 960px;
+ 
+ nav {
+     float: right;
+     color: lightgray;
  }
+
+ nav li {
+     display: inline;
+     padding-right: 0.9em;
+     padding-left: 0.9em;
+     border-right: 1px solid lightgray;
+ }
+
+ nav a {
+     text-decoration: none;
+     text-decoration-color: lightgray;
+     color: gray;
+ }
+
 .name{
     background: #4aaaa5;
     color: white;
-    width: 100px;
-    height: 30px;
-    padding: 10px;
-    margin-top: 20px;
-    
-
+    width: 180px;
+    height: 50px;
+    padding-top: 13px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .content{
+    
+    background-color: lightgray;  
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.content-block{
     margin-bottom: 15px;
     margin-left:10%;
     margin-right:10%;
@@ -39,8 +54,23 @@ body{
     width: 960px;
     height: 500px;
     color: #777777;
-    background: #ffffff;  
-    border-color: #dddddd;
+    background-color: white;  
+    border-color: gray;
+    
+}
+
+.links {
+    background-color: white;
+    padding-top: 1%;
+
+}
+
+.links-block{
+    margin-left:10%;
+    margin-right:10%;
+    width: 960px;
+    height: 50px;
+    background-color: white;  
     
 }
 
@@ -53,34 +83,12 @@ img{
     padding-right:20px;
 }
 
-nav{
-    color: #777;
-    /*margin-left: 500px;*/
-    display: block;
-    padding: 20px;
-    width: 960px;
-    height: 50px;
-    
-    
-}
-.header-links{
-        color: #777;
-        margin-top: 0px;
-        display: block;
-        padding: 20px;
-        float:right;
-}
-.about{
-float: right;
-}
-
 .footer{
     background: #4aaaa5;
     color: white;
     height: 35px;
     text-align: center;
-    margin-left:50px;
-    margin-right:65px;
+
 }
 .bar1{
     background: turquoise;
