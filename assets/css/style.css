@@ -80,7 +80,8 @@ padding: 0;
 
 h3{
     color: #4aaaa5;
-    
+    font-weight: bold; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 img{
     float: left;
@@ -124,78 +125,17 @@ input[type=submit] {
     border: none;
     cursor: pointer;
   }
-.image2{
+  .images li {
+    float: left;
+
+}
+.image{
+    padding: 30px;
     position: relative;
     height: 150px;
     width: 250px;
 }
-.desc2{
-    position: absolute;
-    bottom:0px; 
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 30px;
-    width: 250px;
-    text-align: center;
-}
-.image3{
-    position: relative;
-    height: 150px;
-    width: 250px;
-    float: right;
-}
-.desc3{
-    position: absolute;
-    bottom:0px; 
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 30px;
-    width: 250px;
-    text-align: center;
-}
-.image4{
-    position: relative;
-    height: 150px;
-    width: 250px;
-}
-.desc4{
-    position: absolute;
-    bottom:0px; 
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 30px;
-    width: 250px;
-    text-align: center;
-}
-.image5{
-    position: relative;
-    height: 150px;
-    width: 250px;
-    float: right;
-}
-.desc5{
-    position: absolute;
-    bottom:0px; 
-    background-color: #4aaaa5;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 30px;
-    width: 250px;
-    text-align: center;
-}
-.image6{
-    position: relative;
-    height: 150px;
-    width: 250px;
-}
-.desc6{
+.desc{
     position: absolute;
     bottom:0px; 
     background-color: #4aaaa5;
