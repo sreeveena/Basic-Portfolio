@@ -130,10 +130,14 @@ input[type=submit] {
 
 }
 .image{
-    padding: 30px;
+    padding: 20px;
     position: relative;
     height: 150px;
     width: 250px;
+}
+.image img{
+    height: 150px;
+    width: 150px;
 }
 .desc{
     position: absolute;
@@ -142,7 +146,8 @@ input[type=submit] {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-    height: 30px;
-    width: 250px;
+    height: 40px;
+    width: 150px;
     text-align: center;
+    padding-top: 5px;
 }
