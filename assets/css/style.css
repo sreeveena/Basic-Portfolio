@@ -3,7 +3,7 @@ font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 padding: 0;
   margin: 0;
   font-size: 18px; 
- background-image: url('file:///Users/sree/Documents/Assignments/Basic-Portfolio/triangle-mosaic.png');
+ 
    
 }
  
@@ -43,7 +43,7 @@ padding: 0;
     background-color: lightgray;  
     padding-top: 1%;
     padding-bottom: 1%;
-    
+    background-image: url('file:///Users/sree/Documents/Assignments/Basic-Portfolio/triangle-mosaic.png');
 }
 
 .content-block{
@@ -58,7 +58,11 @@ padding: 0;
     border-color: gray;
     
 }
+.paragraph{
+    font-family:'Georgia', Times, Times New Roman, serif;
+    line-height: 1.5;
 
+}
 .links {
     background-color: white;
     padding-top: 1%;
